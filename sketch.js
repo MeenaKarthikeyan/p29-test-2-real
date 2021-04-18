@@ -124,11 +124,11 @@ function draw() {
   block31.display();
   fill("grey");
   block32.display();
- 
+fill("gold");
 imageMode(CENTER)
-image(polygon_img,polygon.postiton.x,polygon.position.y,40,40);
+image(polygon_img,polygon.position.x,polygon.position.y,40,40);
 slingShot.display();
-polygon.display();
+
 }
 
 function mouseDragged(){
